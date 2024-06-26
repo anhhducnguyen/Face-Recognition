@@ -1,5 +1,7 @@
 # Face Recognition
 
+Face Recognition: The system uses cameras to take photos of students when entering class, the application analyzes and compares snapshots with archived data storage facilities to determine the user's identity.
+
 ## MTCNN architecture
 
 Face detection (P-Net)
@@ -10,9 +12,9 @@ Extracting facial features (O-Net)
 
 ## Facenet is used for the following tasks:
 
-**Face Recognition:** Determine the identity of a fish from a database of known faces.
+**Face Recognition:** Determine the identity of a fish from a database of known faces
 
-**Face Verification:** Verify viewing two photos whether the face belongs to the same person or not.
+**Face Verification:** Verify viewing two photos whether the face belongs to the same person or not
 
 **Face Clustering:** Group face photos together based on similarity, without prior knowledge of identity
 

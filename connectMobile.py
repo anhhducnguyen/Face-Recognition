@@ -32,6 +32,8 @@ import numpy as np
 from mtcnn.mtcnn import MTCNN
 from sklearn.model_selection import train_test_split
 
+
+
 # Function to enhance image by applying denoising and smoothing
 def enhance_image(image):
     # Làm sạch nhiễu bằng Gaussian Blur

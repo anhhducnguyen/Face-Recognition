@@ -33,7 +33,7 @@ AWS_ACCESS_KEY = "AKIAU6GDZ45TZ3RJRWXO"
 AWS_SECRET_KEY = "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"
 AWS_S3_BUCKET_NAME = "fptestbuckett"
 AWS_REGION = "ap-southeast-2"
-LOCAL_DIRECTORY = 'dataset_split/train'  # Thay bằng đường dẫn đến thư mục của bạn
+LOCAL_DIRECTORY = 'dataset_split'  # Thay bằng đường dẫn đến thư mục của bạn
 
 def upload_directory_to_s3(directory, bucket_name, s3_client):
     for root, dirs, files in os.walk(directory):

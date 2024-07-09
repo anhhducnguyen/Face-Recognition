@@ -1,5 +1,9 @@
 
 ```
+pip install boto3
+```
+
+```
 pip install flask mtcnn keras-facenet scikit-learn
 ```
 

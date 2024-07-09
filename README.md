@@ -1,5 +1,9 @@
 
 ```
+pip install awscli boto3
+```
+
+```
 pip install boto3
 ```
 
